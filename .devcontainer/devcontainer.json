@@ -1,0 +1,36 @@
+{
+  "name": "Pomodoro Timer Lab",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye",
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bradlc.vscode-tailwindcss",
+        "esbenp.prettier-vscode",
+        "ms-vscode.vscode-typescript-next",
+        "formulahendry.auto-rename-tag",
+        "christian-kohler.path-intellisense"
+      ],
+      "settings": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll": true
+        },
+        "emmet.includeLanguages": {
+          "javascript": "javascriptreact"
+        }
+      }
+    }
+  },
+  "postCreateCommand": "npm install",
+  "forwardPorts": [5173],
+  "portsAttributes": {
+    "5173": {
+      "label": "Vite Dev Server",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}
