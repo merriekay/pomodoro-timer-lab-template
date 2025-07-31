@@ -7,20 +7,23 @@ Welcome to your Pomodoro Timer project! This CodeSpace comes pre-configured with
 1. **Open CodeSpaces**:
 <img width="496" height="447" alt="image" src="https://github.com/user-attachments/assets/91b71dfd-56ba-4e07-938b-5117c7f42869" />
 
-2. Wait for everything to get setup... it might take up to 5 minutes. When it's ready you should see an interface that looks a lot like VS Code. 
+2. Wait for everything to get setup... it might take up to 5 minutes. When it's ready you should see an interface that looks a lot like VS Code.
 
-3. **Start the development server:** In the terminal (if one doesn't open automatically, you can go to Terminal--> New Terminal), execute the following command:
+<img width="1438" height="779" alt="image" src="https://github.com/user-attachments/assets/52899d3a-9462-4d49-90d6-dbbb4269b54c" />
+
+
+4. **Start the development server:** In the terminal (if one doesn't open automatically, you can go to Terminal--> New Terminal), execute the following command:
 
    ```bash
    npm run dev
    ```
 
-4. **Open the preview:**
+5. **Open the preview:**
 
    - Click the popup that appears, or
    - Go to the "Ports" tab and click the globe icon next to port 5173
 
-5. **Start coding!**
+6. **Start coding!**
    - Your main work will be in `src/App.jsx`
    - Styles are in `src/index.css` (using Tailwind CSS)
 
