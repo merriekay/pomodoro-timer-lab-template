@@ -6,7 +6,14 @@ function App() {
   // your States will go here
 
   // Helper Functions will go here
+  const handleStart = () => {
+    alert("Start button clicked! 🎉\n\nNext step: Add useState and make this button functional!")
+  }
 
+  const handleReset = () => {
+    alert("Reset button clicked! ✨\n\nNext step: Add state management to make this reset the timer!")
+  }
+  
   // this is what the App will return... the UI elements of the app
   // when making changes to UI, look for beacons below:
   return (
@@ -25,8 +32,8 @@ function App() {
             </div>
 
             <div className="space-x-4">
-              <button className="btn-primary">Start</button>
-              <button className="btn-secondary">Reset</button>
+              <button className="btn-primary" onclick={handleStart}>Start</button>
+              <button className="btn-secondary" onClick={handleReset}>Reset</button>
             </div>
           </div>
 
