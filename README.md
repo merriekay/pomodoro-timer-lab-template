@@ -4,19 +4,12 @@ Welcome to your Pomodoro Timer project! This CodeSpace comes pre-configured with
 
 ## Getting Started
 
-1. **Navigate to the project directory:**
+1. **Open CodeSpaces**:
+<img width="496" height="447" alt="image" src="https://github.com/user-attachments/assets/91b71dfd-56ba-4e07-938b-5117c7f42869" />
 
-   ```bash
-   cd pomodoro-timer-lab-template
-   ```
+2. Wait for everything to get setup... it might take up to 5 minutes. When it's ready you should see an interface that looks a lot like VS Code. 
 
-2. **Install dependencies:**
-
-   ```bash
-   npm install
-   ```
-
-3. **Start the development server:**
+3. **Start the development server:** In the terminal (if one doesn't open automatically, you can go to Terminal--> New Terminal), execute the following command:
 
    ```bash
    npm run dev
