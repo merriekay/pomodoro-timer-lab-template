@@ -32,7 +32,7 @@ function App() {
             </div>
 
             <div className="space-x-4">
-              <button className="btn-primary" onclick={handleStart}>Start</button>
+              <button className="btn-primary" onClick={handleStart}>Start</button>
               <button className="btn-secondary" onClick={handleReset}>Reset</button>
             </div>
           </div>
